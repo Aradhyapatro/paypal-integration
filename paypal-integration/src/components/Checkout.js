@@ -21,7 +21,7 @@ const Checkout = () => {
             <div className='paypal'>
                 <p className='checkout-title'>Pay with PAYPAL</p>
                 <div className='paypal-button-container'>
-                    <Paypalcheckoutbutton></Paypalcheckoutbutton>
+                    <Paypalcheckoutbutton product={product}></Paypalcheckoutbutton>
                 </div>
             </div>
         </div>
